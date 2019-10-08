@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: linear-gradient(rgba(0.5,0.5,0.5,0.5),rgba(0.5,0.5,0.5,0.5)), url("../image/adobe2.jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.card{
+    background: linear-gradient(rgba(0.5,0,0,0.3),rgba(0.5,0,0,0.3)), url("../image/adobe1.jpg") center no-repeat;
+    background-position: cover;
+    opacity: 0.5em;   
+}
+.form{
+    margin-top: 10px;
+}
+.btn:hover{
+    transition: ease-in 0.5s;
+    background: #15bd3f;
+}
+
+.fa-input{
+    display: flex;
+    width: 100%;
+}
+
+.fa-input input{
+    background: none;
+    color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+}
+
+.fa-input input::placeholder{
+    color: #0f0f0f;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #08ad31;
+    margin-right: 2px;
+    background: #08ad31;
+  }
+
+  .icon2 {
+    padding: 3px;
+    min-width: 50px;
+    text-align: center;
+    margin-right: 2px;
+    background: #08ad31;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+
+.footer{
+    margin-top: 10px;
+    background: none;
+}
+.contact{
+    margin: auto;
+    width: 90%;
+    padding: 5px;
+}
+
+.contact ul{
+    display: inline-block;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),#f4f4f4 ;  
+  }
+.footer h6{
+    margin: auto;
+    width: 33%;
+    padding: 1px;
+    border-radius: 10px;
+    background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),#f4f4f4 ;
+}
